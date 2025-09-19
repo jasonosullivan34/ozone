@@ -199,7 +199,6 @@ public class TestBlockDataStreamOutput {
 
   @ParameterizedTest
   @MethodSource("dataLengthParameters")
-  @Flaky("HDDS-12027")
   public void testStreamWrite(int dataLength) throws Exception {
     OzoneClientConfig config = newClientConfig(cluster.getConf(), false);
     try (OzoneClient client = newClient(cluster.getConf(), config)) {
