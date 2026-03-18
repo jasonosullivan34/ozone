@@ -230,7 +230,7 @@
                 </relocation>
                 <relocation>
                   <pattern>google.</pattern>
-                  <shadedPattern>${ozone.shaded.prefix}.google</shadedPattern>
+                  <shadedPattern>${ozone.shaded.prefix}.google.</shadedPattern>
                 </relocation>
                 <relocation>
                   <pattern>net.jcip</pattern>
@@ -254,15 +254,15 @@
                 </relocation>
                 <relocation>
                   <pattern>kotlin.</pattern>
-                  <shadedPattern>${ozone.shaded.prefix}.kotlin</shadedPattern>
+                  <shadedPattern>${ozone.shaded.prefix}.kotlin.</shadedPattern>
                 </relocation>
                 <relocation>
                   <pattern>picocli.</pattern>
-                  <shadedPattern>${ozone.shaded.prefix}.picocli</shadedPattern>
+                  <shadedPattern>${ozone.shaded.prefix}.picocli.</shadedPattern>
                 </relocation>
                 <relocation>
                   <pattern>info.</pattern>
-                  <shadedPattern>${ozone.shaded.prefix}.info</shadedPattern>
+                  <shadedPattern>${ozone.shaded.prefix}.info.</shadedPattern>
                 </relocation>
                 <relocation>
                   <pattern>io.</pattern>
