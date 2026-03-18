@@ -229,7 +229,7 @@
                   </excludes>
                 </relocation>
                 <relocation>
-                  <pattern>google</pattern>
+                  <pattern>google.</pattern>
                   <shadedPattern>${ozone.shaded.prefix}.google</shadedPattern>
                 </relocation>
                 <relocation>
@@ -253,15 +253,15 @@
                   <shadedPattern>${ozone.shaded.prefix}.jakarta.annotation</shadedPattern>
                 </relocation>
                 <relocation>
-                  <pattern>kotlin</pattern>
+                  <pattern>kotlin.</pattern>
                   <shadedPattern>${ozone.shaded.prefix}.kotlin</shadedPattern>
                 </relocation>
                 <relocation>
-                  <pattern>picocli</pattern>
+                  <pattern>picocli.</pattern>
                   <shadedPattern>${ozone.shaded.prefix}.picocli</shadedPattern>
                 </relocation>
                 <relocation>
-                  <pattern>info</pattern>
+                  <pattern>info.</pattern>
                   <shadedPattern>${ozone.shaded.prefix}.info</shadedPattern>
                 </relocation>
                 <relocation>
