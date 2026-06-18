@@ -167,7 +167,7 @@ const FileSizeDistribution: React.FC<FileSizeDistributionProps> = ({
     },
     xAxis: {
       type: 'category',
-      data: [...fileCountValues] ?? [],
+      data: [...fileCountValues],
       name: 'File Size Range',
       nameLocation: 'middle',
       nameGap: 40
